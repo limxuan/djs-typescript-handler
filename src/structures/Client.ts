@@ -52,6 +52,11 @@ export class ExtendedClient extends Client {
             slashCommands.push(command);
         });
 
+        this.registerCommands({
+            commands: slashCommands,
+            guildId: process.env.guildId
+        });
+
         // Event
         const eventFiles = await globPromise(
             `${__dirname}/../events/*{.ts,.js}`
