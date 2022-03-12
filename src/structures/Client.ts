@@ -2,7 +2,8 @@ import {
     ApplicationCommandDataResolvable,
     Client,
     ClientEvents,
-    Collection
+    Collection,
+    Intents
 } from "discord.js";
 import { CommandType } from "../typings/Command";
 import glob from "glob";
