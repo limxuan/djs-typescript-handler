@@ -15,6 +15,6 @@
         "resolveJsonModule": true,
         "importHelpers": true
     },
-    "include": ["src", "enviroment.d.ts"],
+    "include": ["src", "environment.d.ts"],
     "exclude": ["node_modules", "**/*.spec.ts"]
 }
